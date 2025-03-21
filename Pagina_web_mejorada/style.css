@@ -1,0 +1,229 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(225, 200, 235);
+    color: rgba(71, 70, 64, 0.993);
+    padding: 0 46px;
+    height: 150vh;
+}
+
+/* Estilos del encabezado */
+header {
+    position: relative;
+    height: 100vh;
+    background: url(Patito.jpg) no-repeat center center/cover;
+}
+
+/* Estilos de la navegación */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(207, 139, 226, 0.7);
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Estilos de los íconos sociales */
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilos de la sección hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+}
+
+/* Estilos de los botones */
+.info-btn, .contact-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: #f958a0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 2rem;
+    background-color: #e1c0ff;
+}
+
+/* Estilos generales de las secciones */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p, section ul {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos de las imágenes */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos de la sección de recomendaciones */
+#recommendations {
+    padding: 3rem 0;
+    background-color: #bdcef9;
+}
+
+#recommendations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #597dd0;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(53, 13, 184, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(234, 21, 36, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #36321b; 
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #0f1910;
+}
+
+/* Estilos de los botones primarios */
+.button-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(218, 13, 119);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.button-primary:hover {
+    background-color: rgb(238, 1, 255);
+}
+
+/* Estilos de la sección de tareas */
+#tareas {
+    padding: 3rem 0;
+    background-color: #d4edda;
+}
+
+#tareas h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #597dd0;
+}
+
+/* Estilos de la sección de contacto */
+#contact {
+    background-color: #664242; /* Color beige */
+    padding: 3rem 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #343a40;
+}
+
+#contact .card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+}
+
+#contact .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#contact .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
+#contact .card-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact .card-text a:hover {
+    text-decoration: underline;
+}
+
+#contact .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff00c8;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+#contact .btn-primary:hover {
+    background-color: #ff00c8;
+}
